@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercies simple match</title>
+    <script src="bai6.js"></script>
+</head>
+<body>
+    Number A (*) <br>
+    <input type="text" id="numbera"> <br>
+    Number B (*) <br>
+    <input type="text" id="numberb"> <br>
+    <br>
+    Sumation : 
+    <input type="button" value="+" onclick="result(cong(getValueA(),getValueB()));">
+    <br>
+    Subtraction :
+    <input type="button" value="-" onclick="result(tru(getValueA(),getValueB()));">
+    <br>
+    Multiplication :
+    <input type="button" value="*" onclick="result(nhan(getValueA(),getValueB()));">
+    <br>
+    Division :
+    <input type="button" value="/" onclick="result(chia(getValueA(),getValueB()));">
+    <br>
+    <br>
+    Result A & B: <br>
+    <input type="text" id="result" disabled="true">
+
+
+
+</body>
+</html>
